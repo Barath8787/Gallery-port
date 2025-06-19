@@ -1,0 +1,129 @@
+.Hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.Hero h1{
+text-align: center;
+font-size: 65px;
+width: 70%;
+font-weight: 600;
+}
+.Hero span{
+        background: linear-gradient(267deg,#DA7c25 0.36%,#b923e1 102.06%);
+       background-clip: text;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+}
+.Hero p{
+    text-align: center;
+    width: 50%;
+    font-size: 24px;
+    line-height: 38px;
+}
+.hero_action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.hero_connect{
+  background: linear-gradient(267deg,#DA7c25 0.36%,#b923e1 102.06%);
+ padding: 18px 40px;
+ border-radius: 50px;
+ cursor: pointer;
+}
+.hero_connect:hover{
+    border: 2px solid #ffff;
+}
+.hero_resume{
+    padding: 18px 40px;
+    border: 2px solid #ffff;
+    cursor: pointer;
+    border-radius: 50px; 
+}
+.hero_resume:hover{
+    border-color: #b923e1;
+}
+/* =============for RESPONSE =========================================*/
+/* @media (max-width:768px) {
+
+
+.Hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.Hero img{
+    margin-bottom: 70px;
+    margin-top: 120px;
+    width: 250px;
+}
+
+.Hero h1{
+text-align: center;
+font-size: 45px;
+width: 100%;
+font-weight: 600;
+}
+.Hero p{
+    width: 60%;
+    font-size: 19px;
+    line-height: 35px;
+    margin: 10px 0px;
+}
+.hero_action{
+    gap: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.hero_connect{
+    padding: 20px 30px;
+    border-radius: 40px;
+}
+.hero_resume{
+    padding: 20px 50px;
+    border-radius: 40px; 
+}
+} */
+@media (max-width:768px){
+.Hero{
+    font-size: 12px;
+    align-items: center;
+   
+
+}
+.Hero h1{
+font-size: 35px;
+width: 90%;
+}
+.Hero p{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    line-height: 33px;
+    
+}
+.hero_action{
+    text-align: center;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.hero_connect{
+ padding: 12px 20px;
+}
+
+.hero_resume{
+    padding: 12px 20px;
+}
+.Hero img{
+    width: 200px;
+    margin-top: 40px;
+}
+}
